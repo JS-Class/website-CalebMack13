@@ -1,0 +1,45 @@
+
+
+
+header {
+    color:rgb(204, 130, 11);
+    background-color:rgb(16, 112, 16) ;
+    text-align: center;
+    font: italic 3em/3em Arial, Helvetica, sans-serif;
+}
+
+
+main{
+    background-color: rgb(227, 187, 124);
+    color: rgb(44, 107, 23);
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgb(204, 130, 11);
+}
+
+footer {
+    font-style: italic;
+}
+
+
+h3 {
+    color: rgb(21, 147, 21);
+}
+
+#foodfavs {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(227, 187, 124);
+    color: rgb(44, 107, 23);
+    
+}
+
+#highlightedInfo {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
