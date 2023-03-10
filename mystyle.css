@@ -34,9 +34,17 @@ nav a:visited
     color:rgb(204, 130, 11);
 }
 
+img
+{
+    vertical-align: middle;
+    float: left;
+    margin: 20px;
+}
+
 
 main
 {
+    margin: 50px;
     padding: 20px;
     background-color: rgb(227, 187, 124);
     color: rgb(44, 107, 23);
@@ -44,9 +52,14 @@ main
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p
+{
+    padding:10px;
+}
+
+
 body 
 {
-    
     padding: 20px;
     background-color: rgb(204, 130, 11);
 }
@@ -54,26 +67,55 @@ body
 footer 
 {
     font-style: italic;
+
 }
 
+li
+{
+    padding: 5px;
+}
 
 h3 
 {
     color: rgb(21, 147, 21);
+    clear: left;
 }
 
 #foodfavs 
 {
+    float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(227, 187, 124);
-    color: rgb(44, 107, 23);    
+    color: rgb(44, 107, 23);
+    padding:20px;
+    margin: 20px; 
+       
 }
+
+#gamefavs 
+{
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(227, 187, 124);
+    color: rgb(44, 107, 23);
+    padding:20px;
+    margin: 20px; 
+       
+}
+
+
+
+
+
+
+
 
 #highlightedInfo 
 {
     color: red;
     font-weight: bold;
     font-style: italic;
+    
 }
 
 table
