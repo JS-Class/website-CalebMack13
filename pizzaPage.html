@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--This is the head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page is about Caleb Macklin">
+    <meta name="keywords" content="Caleb, Pizza, Ohio">
+    
+    <title>Pizza Form</title>
+
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<!--This is the body-->
+<body>
+    <header>
+        <h1>Pizza Ordering Form</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="page2.html" title="Page 2">Page 2</a></li>
+            <li><a href="course_table_page.html" title="Course table">Course Table Page</a></li>
+            <li><a href="pizzaPage.html" title="Pizza Order Form">Pizza Order Form</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <Main>
+        
+        <form id= "pizzaOrderForm" action="pizza.js" method="post">
+            <h3>Start Here:</h3>
+
+            <label for="customer">Name:</label>
+            <input type="text" name="customer" id="customer" autofocus maxlength="18" required> <br>
+
+            <label for="address">Email:</label>
+            <input type="text" name="address" id="address" placeholder="JohnDoe@email.com"> <br>
+
+            <h3>Size:</h3>
+            <fieldset>
+                
+                <input type="radio" name="size" id="small" value="small">
+                <label for="small">small</label>
+                
+                <input type="radio" name="size" id="medium" value="medium">
+                <label for="medium">medium</label>
+                
+                <input type="radio" name="size" id="large" value="large">
+                <label for="large">large</label>
+            </fieldset>
+
+            <h3>Toppings:</h3>
+
+            <label for="pepperoni">pepperoni</label>
+            <input type="checkbox" name="pepperoni" id="pepperoni"> <br>
+
+            <label for="sausage">sausage</label>
+            <input type="checkbox" name="sausage" id="sausage"> <br>
+
+            <label for="mushrooms">mushrooms</label>
+            <input type="checkbox" name="mushrooms" id="mushrooms"> <br>
+
+            <label for="pineapple">pineapple</label>
+            <input type="checkbox" name="pineapple" id="pineapple"> <br>
+
+            <label for="peppers">peppers</label>
+            <input type="checkbox" name="peppers" id="peppers"> <br>
+
+            <h3>Notes for the cook:</h3>
+
+            <input type="text" name="notes" id="notes" placeholder="enter notes here">
+            
+        </form>
+        
+        
+        
+    </Main>
+
+   
+   
+
+    <footer>
+        <h6>Copyright &copy; 2023 Caleb Macklin</h6>
+    </footer>
+
+
+</body>
+
+
+</html>
